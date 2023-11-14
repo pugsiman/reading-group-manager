@@ -1,0 +1,24 @@
+{
+  "name": "discourse-assigner",
+  "version": "1.1.0",
+  "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "7.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "cron": "^1.8.2",
+    "discord.js": "^13.1.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "fast-csv": "^4.3.6",
+    "redis": "^3.1.2",
+    "vm2": "^3.9.3"
+  }
+}
